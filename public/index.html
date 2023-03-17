@@ -1,89 +1,174 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Pi&ntilde;atawear - Ik ga stuk</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/9.18.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/9.18.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/9.18.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/9.18.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/9.18.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/9.18.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/9.18.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/9.18.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/9.18.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/9.18.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/main.css">
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans|Nunito+Sans" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XG2TBJ9FQB"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-XG2TBJ9FQB');
+        </script>
+    </head>
+<body>
+
+    <div class="fixed-side-navbar">
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#home"><span>piñatawear</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#ludiek-idee"><span>een ludiek idee</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#kleding"><span>ik ga stuk</span></a></li>
+        </ul>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
 
+    <div class="parallax-content banner-content" id="home">
+        <div class="container">
+            <div class="first-content">
+                <h1><span>ik</span>ga<span>stuk</span></h1>
+                <p><object data="img/logo.svg" type="image/svg+xml"></object></p>
+                <span>pi&ntilde;ata<em>wear</em></span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="service-content" id="ludiek-idee">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="left-text">
+                        <h4>een ludiek idee</h4>
+                        <div class="line-dec"></div>
+                        <p><em>pi&ntilde;atawear</em> is ontstaan als een ludiek idee om de tegenstelling tussen het plezier van het deelnemen aan een festival en de - al dan niet - negatieve effecten ervan op de gezondheid op een eenvoudige en herkenbare manier te benadrukken</p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <h4>pi&ntilde;ata</h4>
+                                <div class="line-dec"></div>
+                                <p><em>/piˈɲata/</em> een piñata is een felgekleurde versiering die gevuld is met snoepjes, kleine speelgoedjes en andere verrassingen; het is een traditioneel onderdeel van feesten in Mexico en andere Latijns-Amerikaanse landen; de piñata wordt opgehangen en vervolgens mogen de deelnemers er één voor één geblinddoekt naar slaan met een stok totdat de <em>piñata</em> stuk gaat en de inhoud eruit valt.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <h4>ik ga stuk</h4>
+                                <div class="line-dec"></div>
+                                <p><em>ik ga stuk</em> is een uitdrukking die gebruikt wordt wanneer iets heel grappig is en je bijna niet meer kunt stoppen met lachen; het is vergelijkbaar met de Engelse uitdrukking <em>I'm dying</em> of <em>I'm in stitches</em></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <h4>zwart-wit</h4>
+                                <div class="line-dec"></div>
+                                <p>de combinatie van de tekst "ik ga stuk" op zwart-witte kleding creëert een paradoxale uitstraling, die zowel grappig als melancholisch kan zijn; het nodigt de drager uit om de dubbelzinnigheid van de uitdrukking te omarmen en deze op hun eigen manier te interpreteren</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <h4>herkenbaar</h4>
+                                <div class="line-dec"></div>
+                                <p>zwart-witte kleding is een tijdloze en klassieke keuze voor festivals en concerten; het is een kleurenschema dat gemakkelijk te dragen is en waarmee je er altijd stijlvol uitziet; daarnaast is de kleding ook opvallend en herkenbaar omdat de meeste festivalgangers vaak kiezen voor kleurrijke en expressieve kledingstukken</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-content projects-content" id="kleding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="item">
+                            <div class="figure">
+                                <img class="Sirv image-main" src="img/hoodie-front.png" data-src="img/hoodie-front.png">
+                                <img class="Sirv image-hover" data-src="img/hoodie-back.png">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="figure">
+                                <img class="Sirv image-main" src="img/shirt-front.png" data-src="img/shirt-front.png">
+                                <img class="Sirv image-hover" data-src="img/shirt-back.png">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="figure">
+                                <img class="Sirv image-main" src="img/bag-front.png" data-src="img/bag-front.png">
+                                <img class="Sirv image-hover" data-src="img/bag-back.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- <ul>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul> -->
+                    <p>copyright &copy; 2023 Piñatawear</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $(".fixed-side-navbar a, .primary-button a").on('click', function(event) {
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
     </script>
-  </body>
+
+</body>
 </html>
